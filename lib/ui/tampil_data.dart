@@ -11,6 +11,16 @@ class TampilData extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Perkenalan"),
       ),
+      body: Container(
+        margin: EdgeInsets.all(10),
+        child: Column(
+          children: [
+          Text("nama : $data"),
+          Text("NIM : $data"),
+          Text("Tahun Lahir : $data")
+        ],
+        ),
+      ),
     );
   }
 }
